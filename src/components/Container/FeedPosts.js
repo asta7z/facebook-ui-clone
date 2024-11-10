@@ -18,7 +18,7 @@ function FeedPosts(){
                 vIcon='d-none'
                 audience={images.earth}
                 status={images.verified}
-                caption="ksm 7ayati hhh"
+                caption=""
                 post={images.post1}
                 StReact={images.sad}
                 NdReact={images.haha}
