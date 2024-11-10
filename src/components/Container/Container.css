@@ -1,0 +1,26 @@
+.main {
+    width: 100vw;
+    background-color: #242527;
+    height: 100vh;
+    position: relative;
+    overflow-x: hidden;
+/*    max-width: 395px;*/
+    margin: auto;
+    scroll-behavior: smooth;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.418);
+}
+
+.boddy {
+    background-size: cover;
+}
+
+.blur-effect {
+    backdrop-filter: blur(50px);
+    background-size: cover;
+}
+
+@media (min-width:400px){
+    .main {
+        max-width: 395px;
+    }
+}

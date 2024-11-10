@@ -1,0 +1,33 @@
+.nav-6 {
+    display: flex;
+    position: relative;
+    margin-top: 53px;
+    justify-content: space-between;
+    padding: 0 10px;
+    height: 30px;
+    align-items: center;
+    color: #e5e6eb;
+}
+
+.nav-6 h5 {
+    font-weight: bold;
+}
+
+.nav-6 h5 span {
+    color: #f0294a;
+}
+
+.nav-6 button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #73b7ff;
+    transition: 0.15s;
+    border-radius: 5px;
+    padding: 1px 2px;
+    transform: translateY(-5px);
+}
+
+.nav-6 button:active {
+    background-color: rgba(255, 255, 255, 0.1);
+}

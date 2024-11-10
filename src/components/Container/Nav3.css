@@ -1,0 +1,85 @@
+.nav-3 {
+    padding: 10px;
+    background-color: #242527;
+    width: 100vw;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 102px;
+    align-items: center;
+}
+
+.nav-3 button {
+    border: none;
+    outline: none;
+    transition: 0.15s;
+}
+
+.nav-3 button:not(:nth-child(2)) {
+    width: 45px;
+    height: 45px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 60px;
+}
+
+.nav-3 button:first-child {
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-3 button:first-child img {
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.nav-3 button:first-child:active {
+    filter: brightness(0.9);
+}
+
+.nav-3 button:last-child {
+    background-color: transparent;
+    background-size: 55%;
+}
+
+.nav-3 button:last-child:active {
+    background-color: rgba(100, 100, 100, 0.6);
+}
+
+.nav-3 button:nth-child(2) {
+    border: 1px solid rgba(157, 158, 161, 0.356);
+    transition: border 0.15s;
+    background-color: transparent;
+    color: rgba(229, 230, 235, 0.85);
+    padding: 6px 0;
+    width: 72.5%;
+    border-radius: 60px;
+    text-align: left;
+    padding-left: 18px;
+    font-size: 16px;
+}
+
+.nav-3 button:nth-child(2):hover {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.nav-3 button:nth-child(2):active {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+@media (min-width:400px){
+    .nav-3 {
+        max-width: 395px;
+    }
+}
+
+@media (max-width:380px){
+    .nav-3 button:nth-child(2){
+        width: 68%;
+    }
+}

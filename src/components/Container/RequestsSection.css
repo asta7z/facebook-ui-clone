@@ -1,0 +1,10 @@
+.requests-section {
+    width: 100vw;
+    user-select: none;
+}
+
+@media (min-width:400px) {
+    .requests-section {
+        max-width: 100%;
+    }
+}

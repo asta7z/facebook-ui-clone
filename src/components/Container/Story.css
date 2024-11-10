@@ -1,0 +1,41 @@
+.stories-section .story {
+    overflow: hidden;
+    border-radius: 10px;
+    margin-right: 7px;
+    object-fit: cover;
+    position: relative;
+    user-select: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    width: 112px;
+    height: 212px;
+    box-shadow: 0 0 0 0 1px rgba(0, 0, 0, 0.1);
+    background-size: cover;
+}
+
+.stories-section .story .story-user {
+    width: 34px;
+    height: 34px;
+    border-radius: 60px;
+    border: 2px solid #242527;
+    box-shadow: 0 0 0 2px var(--bs-primary);
+    transform: translate(-30px, 9px);
+    cursor: pointer;
+    position: absolute;
+}
+
+.stories-section .story .story-user:hover {
+    opacity: 0.95;
+}
+
+.stories-section .story p {
+    position: absolute;
+    bottom: -13px;
+    z-index: 1;
+    color: #e4e4ec;
+    text-align: left;
+    left: 7px;
+    font-size: 15px;
+}

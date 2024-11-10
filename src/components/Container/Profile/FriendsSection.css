@@ -1,0 +1,121 @@
+.profile-section .friends-section .friends {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 10px;
+}
+
+.profile-section .friends-section .friends a img {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+.profile-section .friends-section .friends a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: rgba(229, 230, 235, 0.95);
+    padding: 0;
+    margin: 5px 0;
+}
+
+.profile-section .friends-section .friends a img:active {
+    filter: brightness(0.9);
+}
+
+.profile-section .friends-section .friends a p {
+    width: 120px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 5px 0 0px;
+}
+
+.profile-section .friends-section button {
+    background-color: rgba(100, 100, 100, 0.3);
+    border-radius: 5px;
+    padding: 7px 15px;
+    color: #e4e4ec;
+    margin: 10px auto;
+    transition: 0.1s;
+    border: none;
+    display: flex;
+    width: 95%;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-section .friends-section button:hover {
+    background-color: rgba(100, 100, 100, 0.25);
+}
+
+.profile-section .friends-section button:active {
+    background-color: rgba(100, 100, 100, 0.2);
+}
+
+@media (max-width:390px) {
+    .profile-section .friends-section .friends a img {
+        width: 115px;
+        height: 115px;
+    }
+
+    .profile-section .friends-section .friends a p {
+        width: 115px;
+    }
+}
+
+@media (max-width:385px) {
+    .profile-section .friends-section .friends a img {
+        width: 110px;
+        height: 110px;
+    }
+
+    .profile-section .friends-section .friends a p {
+        width: 110px;
+    }
+}
+
+@media (max-width:360px) {
+    .profile-section .friends-section .friends a img {
+        width: 105px;
+        height: 105px;
+    }
+
+    .profile-section .friends-section .friends a p {
+        width: 105px;
+    }
+}
+
+@media (max-width:345px) {
+    .profile-section .friends-section .friends a img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .profile-section .friends-section .friends a p {
+        width: 100px;
+    }
+}
+
+@media (max-width:330px) {
+    .profile-section .friends-section .friends a img {
+        width: 95px;
+        height: 95px;
+    }
+
+    .profile-section .friends-section .friends a p {
+        width: 95px;
+    }
+}
+
+@media (max-width:315px) {
+    .profile-section .friends-section .friends a img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .profile-section .friends-section .friends a p {
+        width: 90px;
+    }
+}

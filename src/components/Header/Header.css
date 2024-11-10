@@ -1,0 +1,7 @@
+header {
+    color: var(--bs-light);
+    align-items: center;
+    padding: 0;
+    position: fixed;
+    z-index: 99;
+}

@@ -1,0 +1,96 @@
+/*.scrollbar-x {
+    overflow-x: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: transparent;
+    transform: translateY();
+    display: flex;
+}
+
+.scrollbar-x::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.scrollbar-x::-webkit-scrollbar-track {
+    background-color: var(--bs-light);
+}
+
+.scrollbar-x::-webkit-scrollbar-thumb {
+    background-color: var(--bs-gray);
+}
+
+.stories-section {
+    display: flex;
+    padding: 10px 5px 10px 10px;
+}
+
+.stories-section .stories {
+    width: 115px;
+    height: 210px;
+    box-shadow: 0 0 0 0 1px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border-radius: 10px;
+    margin-right: 7px;
+    position: relative;
+    user-select: none;
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+.stories-section .stories:active {
+    opacity: 0.9;
+    
+}
+
+.stories-section .stories:active {
+    transform: scale(0.98);
+}
+*/
+
+.scrollbar-x {
+    overflow-x: scroll;
+    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer and Edge */
+    display: flex; /* Keep the flex layout */
+}
+
+.scrollbar-x::-webkit-scrollbar {
+    width: 0;  /* Hide scrollbar for Chrome, Safari, Edge */
+    height: 0;  /* Hide scrollbar height */
+}
+
+.scrollbar-x::-webkit-scrollbar-track {
+    background-color: transparent;  /* Ensure the track is transparent */
+}
+
+.scrollbar-x::-webkit-scrollbar-thumb {
+    background-color: transparent;  /* Hide the thumb */
+}
+
+
+.stories-section {
+    display: flex;
+    padding: 10px 5px 10px 10px;
+}
+
+.stories-section .stories {
+    width: 115px;
+    height: 210px;
+    box-shadow: 0 0 0 0 1px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border-radius: 10px;
+    margin-right: 7px;
+    position: relative;
+    user-select: none;
+/*    transition: 0.1s;*/
+    cursor: pointer;
+}
+
+.stories-section .stories:active {
+    opacity: 0.9;
+    
+}
+
+.stories-section .stories:active {
+    transform: scale(0.98);
+}

@@ -1,0 +1,279 @@
+.profile-section {
+    margin-top: 100px;
+    width: 100vw;
+    max-width: 395px;
+    user-select: none;
+}
+
+.profile-section .nav-1 {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #242527;
+}
+
+.profile-section .nav-1 button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 0;
+    transition: 0.1s;
+}
+
+.profile-section .nav-1 button:first-child {
+    color: #e4e4ec;
+    font-weight: 700;
+    font-size: 25px;
+    height: 70%;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 0;
+}
+
+.profile-section .nav-1 button:first-child img {
+    width: 20px;
+    opacity: .9;
+}
+
+.profile-section .nav-1 button:first-child:active {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.profile-section .nav-1 button:last-child {
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 37px;
+    height: 37px;
+    border-radius: 60px;
+}
+
+.profile-section .nav-1 button:last-child:active {
+    background-color: rgba(255, 255, 255, 0.075);
+}
+
+.profile-section .nav-1 button:last-child img {
+    width: 22px;
+    height: 22px;
+    opacity: 0.9;
+    transform: translateY(-1px);
+}
+
+.profile-section .cover-pic {
+    background-color: #242527;
+    height: 215px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.profile-section .profile-pic {
+    margin: 0 10px;
+    width: 155px;
+    height: 155px;
+    border-radius: 100px;
+    overflow: hidden;
+    box-shadow: 0 0 0 4px #242527;
+    position: absolute;
+    bottom: -30px;
+    object-fit: cover;
+}
+
+.profile-section .profile-pic img {
+    width: 155px;
+    height: 155px;
+}
+
+.profile-section .user-info-1 {
+    margin: 45px 10px 0;
+}
+
+.profile-section .user-info-1 h4 {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.profile-section .user-info-1 p {
+    line-height: 0.45cm;
+}
+
+.profile-section .user-info-1 {
+    color: #e4e4ec;
+    line-height: 0.5;
+}
+
+.profile-section .user-info-1 .story-edit-more {
+    margin: 20px 0 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-section .user-info-1 .story-edit-more button {
+    color: #e4e4ec;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(100, 100, 100, 0.3);
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-section .user-info-1 .story-edit-more button:first-child {
+    background-color: rgba(0, 123, 255, 1);
+    width: 42%;
+}
+
+.profile-section .user-info-1 .story-edit-more button:first-child:hover {
+    background-color: rgba(0, 123, 255, 0.95);
+}
+
+.profile-section .user-info-1 .story-edit-more button:first-child:active {
+    background-color: rgba(0, 123, 255, 0.9);
+}
+
+.profile-section .user-info-1 .story-edit-more button:last-child:hover,
+.profile-section .user-info-1 .story-edit-more button:nth-child(2):hover {
+    background-color: rgba(100, 100, 100, 0.25);
+}
+
+.profile-section .user-info-1 .story-edit-more button:last-child:active,
+.profile-section .user-info-1 .story-edit-more button:nth-child(2):active {
+    background-color: rgba(100, 100, 100, 0.2);
+}
+
+.profile-section .user-info-1 .story-edit-more button:first-child img,
+.profile-section .user-info-1 .story-edit-more button:nth-child(2) img {
+    margin: 0 5px 0 0;
+}
+
+.profile-section .user-info-1 .story-edit-more button:first-child img {
+    width: 22px;
+    height: 22px;
+}
+
+.profile-section .user-info-1 .story-edit-more button:nth-child(2) img {
+    width: 17px;
+    height: 17px;
+}
+
+.profile-section .user-info-1 .story-edit-more button:nth-child(2) {
+    width: 41%;
+}
+
+.profile-section .user-info-1 .story-edit-more button:last-child {
+    width: 14%;
+}
+
+.profile-section .user-info-1 .story-edit-more button img {
+    width: 18px;
+    height: 18px;
+    opacity: 0.8;
+}
+
+.profile-section .navbar-2 {
+    background-color: #242527;
+    height: 60px;
+    display: flex;
+    padding: 0 10px;
+    align-items: center;
+    position: relative;
+}
+
+.profile-section .navbar-2 button {
+    background-color: transparent;
+    border-radius: 30px;
+    padding: 7px 15px;
+    color: #b0b3b8;
+    margin-right: 5px;
+    transition: 0.1s;
+    border: none;
+}
+
+.profile-section .navbar-2 button:hover {
+    border-color: transparent;
+    background-color: rgba(100, 100, 100, 0.6);
+    color: #b0b3b8;
+}
+
+.profile-section .navbar-2 .active-btn {
+    color: #73b7ff;
+    background-color: rgba(71, 131, 221, 0.3);
+}
+
+.profile-section .navbar-2 .active-btn:hover {
+    background-color: rgba(157, 184, 224, 0.3);
+    color: #73b7ff;
+}
+
+.profile-section .navbar-2::before {
+    content: "";
+    position: absolute;
+    background-color: var(--bs-light);
+    opacity: 0.1;
+    width: 100%;
+    height: 1px;
+    left: 50%;
+    bottom: -10px;
+    transform: translate(-50%, -10px);
+}
+
+.profile-section .details-section {
+    padding: 5px 0;
+}
+
+.profile-section .details-section h1,
+.profile-section .friends-section h1 {
+    color: #e5e6eb;
+    margin: 0 10px;
+    font-size: 26px;
+    font-weight: 600;
+    padding: 5px 0;
+}
+
+.profile-section .details {
+    margin: 5px 10px;
+}
+
+.profile-section .details p {
+    display: flex;
+    color: rgba(229, 230, 235, 0.95);
+    font-size: 18px;
+    margin: 4px 0;
+    align-items: center;
+}
+
+.profile-section .details p a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.profile-section .details img {
+    width: 18px;
+    height: 18px;
+    margin: 0 10px 0 0;
+    opacity: 0.55;
+}
+
+.profile-section .details-section button {
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 7px 15px;
+    color: #b0b3b8;
+    margin: 10px auto;
+    transition: 0.1s;
+    border: none;
+    display: flex;
+    width: 95%;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-section .details-section .active-btn {
+    color: #73b7ff;
+    background-color: rgba(71, 131, 221, 0.3);
+}
+
+.profile-section .details-section .active-btn:hover {
+    background-color: rgba(157, 184, 224, 0.3);
+    color: #73b7ff;
+}
