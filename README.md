@@ -28,4 +28,6 @@ Start the server
   npm start
 ```
 
-take a look at the [Demo](https://facebook-sigma-mocha.vercel.app/)
+## Demo
+Take a look [here](https://facebook-sigma-mocha.vercel.app/)
+> note: this is just the development version...
