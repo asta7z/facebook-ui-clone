@@ -149,18 +149,18 @@ function FeedPosts(){
             <Post 
                 username={friends.friend13[0]}
                 userpfp={friends.friend13[1]}
-                date='14m'
+                date='17m'
                 vIcon='d-none'
                 audience={images.earth}
                 status={images.verified}
                 caption=""
                 post={images.abyss_meme}
-                StReact={images.love}
-                NdReact={images.care}
-                RdReact={images.haha}
+                StReact={images.haha}
+                NdReact={images.sad}
+                RdReact={images.like}
                 reach='2K'
                 comments='102'
-                shares='24'
+                shares='42'
                 c_s='d-block'
             />
         </>
