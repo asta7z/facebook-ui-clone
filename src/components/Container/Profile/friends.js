@@ -2,8 +2,8 @@ import images from "../Images"
 
 const friends = {
     friend1 : ['Tobio Sukehiro', images.ayanami1],
-    friend2 : ['RaYan Dadch', images.rest_here],
-    friend3 : ['Voizone Gtx', images.mewing_cat],
+    friend2 : ['Floyd', images.rest_here],
+    friend3 : ['Shin Desu', images.mewing_cat],
     friend4 : ['Saida', images.ayanami2],
     friend5 : ['Shizou', images.ayanami3],
     friend6 : ['dante愛', images.cmGirl1],
