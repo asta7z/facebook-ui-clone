@@ -1,0 +1,5 @@
+.notification-container .profiles img.user-pfp {
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+}
