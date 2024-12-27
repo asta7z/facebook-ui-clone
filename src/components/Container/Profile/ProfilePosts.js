@@ -16,7 +16,7 @@ function ProfilePosts(){
                 vIcon='d-none'
                 audience={images.earth}
                 status={images.verified}
-                caption=""
+                caption="ksm 7ayati hhh"
                 post={images.post1}
                 StReact={images.sad}
                 NdReact={images.haha}

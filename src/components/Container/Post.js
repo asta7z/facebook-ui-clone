@@ -11,7 +11,7 @@ function Post(props){
                     <h6 className="text-light">{props.username}
                         <span className={props.vIcon}><img src={props.status}></img></span>
                     </h6>
-                    <p>{props.date} · <img src={props.audience}></img></p>
+                    <p>{props.date} &bull; <img src={props.audience}></img></p>
                 </label>
                 <div className="options">
                     <button><img src={images.more} alt=""></img></button>

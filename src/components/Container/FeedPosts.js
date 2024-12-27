@@ -18,7 +18,7 @@ function FeedPosts(){
                 vIcon='d-none'
                 audience={images.earth}
                 status={images.verified}
-                caption=""
+                caption="ksm 7ayati hhh"
                 post={images.post1}
                 StReact={images.sad}
                 NdReact={images.haha}
@@ -149,18 +149,18 @@ function FeedPosts(){
             <Post 
                 username={friends.friend13[0]}
                 userpfp={friends.friend13[1]}
-                date='17m'
+                date='14m'
                 vIcon='d-none'
                 audience={images.earth}
                 status={images.verified}
                 caption=""
-                post={images.abyss_meme}
-                StReact={images.haha}
-                NdReact={images.sad}
-                RdReact={images.like}
+                post={images.artisan1}
+                StReact={images.love}
+                NdReact={images.care}
+                RdReact={images.haha}
                 reach='2K'
                 comments='102'
-                shares='42'
+                shares='24'
                 c_s='d-block'
             />
         </>

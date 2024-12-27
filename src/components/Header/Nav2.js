@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import './Nav2.css'
 import images from "../Container/Images";
 
@@ -21,6 +22,10 @@ function Nav2(){
     let pfpOpacity = '.7';
     let pfpIcon = images.profile;
 
+    let notifSt = '';
+    let notifOpacity = '.7';
+    let notifIcon = images.notification;
+
     if(location.pathname === '/'){
         homeSt = 'active-btn';
         homeOpacity = '1';
@@ -37,6 +42,12 @@ function Nav2(){
         pfpSt = 'active-btn';
         pfpOpacity = '1';
         pfpIcon = images.profileactive;
+    };
+
+    if(location.pathname === '/notifications'){
+        notifSt = 'active-btn';
+        notifOpacity = '1';
+        notifIcon = images.notification;
     };
 
 
@@ -77,7 +88,20 @@ function Nav2(){
                         </img>
                     </Link>
                 </button>
-                <button><img style={{width:'27px',height:'27px'}} src={images.notification}></img></button>
+                <button className={notifSt}>
+                    <Link to='/notifications'>
+                        <img
+                            style={
+                                {
+                                    width:'27px',
+                                    height:'27px',
+                                    opacity:notifOpacity
+                                }
+                            }
+                            src={notifIcon}>
+                        </img>
+                    </Link>
+                </button>
                 <button><img style={{width:'32px',height:'32px',transform:'translateY(-1px)'}} src={images.menu}></img></button>
             
         </div>

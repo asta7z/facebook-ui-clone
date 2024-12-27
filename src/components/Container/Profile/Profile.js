@@ -4,14 +4,37 @@ import SepLine from '../../SepLine/SepLine'
 import info from '../Info'
 import FriendsSection from './FriendsSection'
 import ProfilePosts from './ProfilePosts'
+import { useState } from 'react'
 
 function Profile(){
+    const [username, setUsername] = useState(info.username);
+
+    const nameChanger = () => {
+        const newName = prompt("Enter new name: ");
+
+        if (newName !== null) {
+            const newNameLength = newName.length;
+            if (newNameLength <= 1) {
+                setUsername("asta絆");
+                info.username = "asta絆";
+            }
+            else {
+                setUsername(newName);
+                info.username = newName;
+            }
+        }
+
+        else {
+            setUsername("asta絆");
+            info.username = "asta絆";
+        }
+    };
 
     return(
         <div className='profile-section'>
             <div className='nav-1'>
                 <button>{info.username} <img src={images.down}></img></button>
-                <button className='edit-btn'>
+                <button onClick={nameChanger} className='edit-btn'>
                     <img src={images.profileedit}></img>
                 </button>
             </div>

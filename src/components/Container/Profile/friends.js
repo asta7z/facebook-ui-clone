@@ -1,12 +1,12 @@
 import images from "../Images"
 
 const friends = {
-    friend1 : ['RaYan Dadch', images.rest_here],
-    friend2 : ['Shin Desu', images.slime],
-    friend3 : ['Oussama', images.david_1],
-    friend4 : ['Kazuma', images.greyrat1],
-    friend5 : ['Eve', images.anime_art_1],
-    friend6 : ['Ken', images.ishida],
+    friend1 : ['Tobio Sukehiro', images.ayanami1],
+    friend2 : ['RaYan Dadch', images.rest_here],
+    friend3 : ['Voizone Gtx', images.mewing_cat],
+    friend4 : ['Saida', images.ayanami2],
+    friend5 : ['Shizou', images.ayanami3],
+    friend6 : ['dante愛', images.cmGirl1],
     friend7 : ['Kai愛', images.cgarou1],
     friend8 : ['Az Ossama', images.bugs_bunny],
     friend9 : ['Didin Clash', images.didin1],
