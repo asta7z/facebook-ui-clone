@@ -7,7 +7,7 @@ function Notifications(){
     return(
         <div className='notifications-section'>
             <Notif
-                userPfp={friends.friend1[1]}
+                userPfp={friends.ken[1]}
             />
         </div>
     )

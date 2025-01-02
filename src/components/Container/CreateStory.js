@@ -1,11 +1,12 @@
 import React from "react";
 import './CreateStory.css';
 import images from "./Images";
+import info from "./Info";
 
-function CreateStory(props){
+function CreateStory(){
 
     return(
-        <div style={{backgroundImage:`url(${props.story})`}} className="stories create-story">
+        <div style={{backgroundImage:`url(${info.user_pfp})`}} className="stories create-story">
             <button>
                 <img src={images.add}></img>
             </button>

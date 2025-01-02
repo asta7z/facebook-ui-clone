@@ -1,12 +1,14 @@
 import React from "react";
+import friends from "./Profile/friends";
 import './Story.css'
 
-function Story(props){
+const Story = ({name, props}) => {
+    const [friendName, image, date, mult1, mult2, count, story] = friends[name];
 
     return(
-        <div style={{backgroundImage:`url(${props.story})`,backgroundColor:`${props.bgColor}`}} className="stories story">
-            <img className="story-user" src={props.userpfp}></img>
-            <p>{props.username}</p>
+        <div style={{backgroundImage:`url(${story})`,backgroundColor:`#242527`}} className="stories story">
+            <img className="story-user" src={image}></img>
+            <p>{friendName}</p>
         </div>
     )
 }

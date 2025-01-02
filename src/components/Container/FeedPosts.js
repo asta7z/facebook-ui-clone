@@ -5,7 +5,7 @@ import SepLine from "../SepLine/SepLine"
 import images from "./Images"
 import info from "./Info"
 import friends from "./Profile/friends"
-import data from '../../data.json'
+import posts from "./posts_data"
 
 function FeedPosts(){
 
@@ -50,8 +50,8 @@ function FeedPosts(){
             <SepLine />
 
             <Post
-                username={friends.friend8[0]}
-                userpfp={friends.friend8[1]}
+                username={friends.ken[0]}
+                userpfp={friends.ken[1]}
                 date='1d'
                 audience={images.earth}
                 status={images.verified}
@@ -107,8 +107,8 @@ function FeedPosts(){
             <SepLine />
 
             <Post 
-                username={friends.friend10[0]}
-                userpfp={friends.friend10[1]}
+                username={friends.floppa[0]}
+                userpfp={friends.floppa[1]}
                 date='14m'
                 vIcon='d-none'
                 audience={images.earth}
@@ -127,8 +127,8 @@ function FeedPosts(){
             <SepLine />
 
             <Post 
-                username={friends.friend9[0]}
-                userpfp={friends.friend9[1]}
+                username={friends.aymendjf[0]}
+                userpfp={friends.aymendjf[1]}
                 date='50m'
                 
                 audience={images.earth}
@@ -147,8 +147,8 @@ function FeedPosts(){
             <SepLine />
 
             <Post 
-                username={friends.friend13[0]}
-                userpfp={friends.friend13[1]}
+                username={friends.aruma[0]}
+                userpfp={friends.aruma[1]}
                 date='14m'
                 vIcon='d-none'
                 audience={images.earth}

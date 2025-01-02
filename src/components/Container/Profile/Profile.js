@@ -7,6 +7,7 @@ import ProfilePosts from './ProfilePosts'
 import { useState } from 'react'
 
 function Profile(){
+
     const [username, setUsername] = useState(info.username);
 
     const nameChanger = () => {
@@ -20,7 +21,7 @@ function Profile(){
             }
             else {
                 setUsername(newName);
-                info.username = newName;
+                info.username = newName.substring(0, 1).toUpperCase() + newName.substring(1);
             }
         }
 
@@ -30,30 +31,38 @@ function Profile(){
         }
     };
 
+    // closeBtn.addEventListener("click", function(){
+    //     inputContainer.style.display = "none";
+    // });
+
     return(
         <div className='profile-section'>
+            {/* <div id='inputContainer' className="input-container">
+                <button id='closeBtn'>close</button>
+            </div> */}
             <div className='nav-1'>
-                <button>{info.username} <img src={images.down}></img></button>
+                <button>{info.username} <img src={images.down} alt='down'></img></button>
                 <button onClick={nameChanger} className='edit-btn'>
-                    <img src={images.profileedit}></img>
+                    <img src={images.profileedit} alt='edit icon'></img>
                 </button>
             </div>
 
             <div className='cover-pic' style={{backgroundImage:`url(${info.user_cover})`}}>
                 <div className='profile-pic'>
-                    <img id='profile-picture' src={info.user_pfp}></img>
+                    <img id='profile-picture' src={info.user_pfp} alt='user pfp'></img>
                 </div>
             </div>
 
             <div className='user-info-1'>
-                <h4 className='username'>{info.username}</h4>
+                <h4 className='username'>{info.username} <span><img src={images.verified
+                } alt='verified' /></span></h4>
                 <p className='bio'>
                     {info.bio}
                 </p>
                 <div className='story-edit-more'>
-                    <button><img src={images.add}></img>Add to story</button>
-                    <button><img src={images.edit}></img>Edit profile</button>
-                    <button><img src={images.more}></img></button>
+                    <button><img src={images.add} alt='add'></img>Add to story</button>
+                    <button><img src={images.edit} alt='edit'></img>Edit profile</button>
+                    <button><img src={images.more} alt='more'></img></button>
                 </div>
             </div>
 
@@ -69,9 +78,9 @@ function Profile(){
                 <h1>Details</h1>
                 <div className='details'>
                     {/* <p><img src={images.followers}></img> Followed by 241 people</p> */}
-                    <p><img src={images.instagram}></img> <a href={`https://www.instagram.com/${info.user_ig}`}>{info.user_ig}</a></p>
+                    <p><img src={images.instagram} alt='instagram'></img> <a href={`https://www.instagram.com/${info.user_ig}`}>{info.user_ig}</a></p>
                     {/* <p><img src={images.twitter}></img> <a href=''>A'z O'ssama</a></p> */}
-                    <p><img src={images.more}></img> See your About info</p>
+                    <p><img src={images.more} alt='more'></img> See your About info</p>
                 </div>
                 <button className='active-btn'>Edit public details</button>
             </div>

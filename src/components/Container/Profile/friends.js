@@ -1,19 +1,21 @@
 import images from "../Images"
+import React from "react";
 
 const friends = {
-    friend1 : ['Tobio Sukehiro', images.ayanami1],
-    friend2 : ['Floyd', images.rest_here],
-    friend3 : ['Shin Desu', images.mewing_cat],
-    friend4 : ['Saida', images.ayanami2],
-    friend5 : ['Shizou', images.ayanami3],
-    friend6 : ['dante愛', images.cmGirl1],
-    friend7 : ['Kai愛', images.cgarou1],
-    friend8 : ['Az Ossama', images.bugs_bunny],
-    friend9 : ['Didin Clash', images.didin1],
-    friend10 : ['Aymen Djeffal', images.artisan2],
-    friend11 : ['Floppa', images.floppa1],
-    friend12 : ['Kaori', images.itadori1],
-    friend13 : ['Aruma', images.aruma1],
+  //name : ['friendName', 'image', 'date', 'mult1', 'mult2', 'rDate', 'story']
+    tobio : ['Tobio Sukehiro', images.ayanami1, '2d', images.artisan1, images.floppus, '101', images.nature1],
+    ken : ['Ken', images.rest_here, '51m', images.ayanami1, images.aruma1, '54', images.ronaldo1],
+    voizone : ['Voizone Gtx', images.mewing_cat, '2d', images.artisan2, images.floppa1, '12', images.abyss_meme],
+    saida : ['Saida', images.ayanami2, '3d', images.didin1, images.floppus, '45', images.anime_art],
+    shizou : ['Shizou', images.ayanami3, '1w', images.rest_here, images.mewing_cat, '34', images.artisan2],
+    dante : ['dante愛', images.cmGirl1, '14m', images.cmGirl1, images.cgarou1, '87', images.abyss_meme],
+    kai : ['Kai愛', images.cgarou1, '36m', images.mewing_cat, images.floppus, '64', images.musicsCover],
+    azossama : ['Az Ossama', images.bugs_bunny, '1d', images.red_pixel, images.floppus, '245', images.abyss_meme],
+    didin : ['Didin Clash', images.didin1, '1m', images.ayanami3, images.red_pixel, '99', images.makima1],
+    aymendjf : ['Aymen Djeffal', images.artisan2, '1y', images.artisan1, images.floppus, '134', images.abyss_meme],
+    floppa : ['Floppa', images.floppa1, '17s', images.aruma1, images.ayanami3, '20', images.opmanga3],
+    kaori : ['Kaori', images.itadori1, '1h', images.ayanami3, images.bugs_bunny, '11', images.abyss_meme],
+    aruma : ['Aruma', images.aruma1, '5h', images.floppus, images.itadori1, '50', images.abyss_meme],
 }
 
 export default friends
