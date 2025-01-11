@@ -7,9 +7,9 @@ import ProfilePosts from './ProfilePosts'
 import { useState } from 'react'
 
 function Profile(){
-
+    /* eslint-disable no-unused-vars*/
     const [username, setUsername] = useState(info.username);
-
+    
     const nameChanger = () => {
         const newName = prompt("Enter new name: ");
 
@@ -31,15 +31,8 @@ function Profile(){
         }
     };
 
-    // closeBtn.addEventListener("click", function(){
-    //     inputContainer.style.display = "none";
-    // });
-
     return(
         <div className='profile-section'>
-            {/* <div id='inputContainer' className="input-container">
-                <button id='closeBtn'>close</button>
-            </div> */}
             <div className='nav-1'>
                 <button>{info.username} <img src={images.down} alt='down'></img></button>
                 <button onClick={nameChanger} className='edit-btn'>
@@ -78,8 +71,8 @@ function Profile(){
                 <h1>Details</h1>
                 <div className='details'>
                     {/* <p><img src={images.followers}></img> Followed by 241 people</p> */}
-                    <p><img src={images.instagram} alt='instagram'></img> <a href={`https://www.instagram.com/${info.user_ig}`}>{info.user_ig}</a></p>
-                    {/* <p><img src={images.twitter}></img> <a href=''>A'z O'ssama</a></p> */}
+                    <p><img src={images.instagram} alt='instagram'></img> <a href={`https://www.instagram.com/${info.user_ig_p}`}>{info.user_ig_p}</a></p>
+                    <p><img src={images.twitter} alt="twitter"></img> <a href={`https://www.twitter.com/${info.user_x_p}`}>{info.user_x_p}</a></p>
                     <p><img src={images.more} alt='more'></img> See your About info</p>
                 </div>
                 <button className='active-btn'>Edit public details</button>

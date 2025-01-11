@@ -3,10 +3,7 @@ import CreateStory from "./CreateStory";
 import Story from "./Story";
 import './Stories.css';
 import info from "./Info";
-import friends from "./Profile/friends";
 import MyStory from "./Home/MyStory";
-
-import images from "./Images";
 
 function Stories(){
 

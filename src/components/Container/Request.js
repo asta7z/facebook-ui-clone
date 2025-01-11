@@ -22,8 +22,8 @@ const Request = ({name}) => {
                 
                 <div className="mutual-friends">
                     <div className="mutual-pfps">
-                        <img src={mult1}></img>
-                        <img src={mult2}></img>
+                        <img src={mult1} alt="mutual friend"></img>
+                        <img src={mult2} alt="mutual friend"></img>
                     </div>
                     <div className="mutual-count">
                         <p>{rDate} mutual friends</p>

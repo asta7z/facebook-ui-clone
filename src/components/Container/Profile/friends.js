@@ -1,8 +1,9 @@
 import images from "../Images"
-import React from "react";
+import info from "../Info"
 
 const friends = {
   //name : ['friendName', 'image', 'date', 'mult1', 'mult2', 'rDate', 'story']
+    user: [info.username, info.user_pfp],
     tobio : ['Tobio Sukehiro', images.ayanami1, '2d', images.artisan1, images.floppus, '101', images.nature1],
     ken : ['Ken', images.rest_here, '51m', images.ayanami1, images.aruma1, '54', images.ronaldo1],
     voizone : ['Voizone Gtx', images.mewing_cat, '2d', images.artisan2, images.floppa1, '12', images.abyss_meme],

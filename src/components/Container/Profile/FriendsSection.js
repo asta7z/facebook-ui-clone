@@ -1,5 +1,4 @@
 import './Profile.css'
-import friends from './friends'
 import './FriendsSection.css'
 import Friend from './Friend'
 
