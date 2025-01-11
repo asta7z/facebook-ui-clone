@@ -29,5 +29,4 @@ Start the server
 ```
 
 ## Demo
-Take a look [here](https://facebook-sigma-mocha.vercel.app/)
-> note: this is just the development version...
+Take a look [here](https://facebook-ui-clone-1gqtmfbrd-phenix1001s-projects.vercel.app/)
