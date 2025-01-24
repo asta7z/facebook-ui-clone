@@ -1,5 +1,3 @@
-import images from '../Images'
-import friends from '../Profile/friends'
 import '../Notifications/Notification.css'
 import Notif from './Notif'
 import NotiBar from './NotiBar'
@@ -8,13 +6,14 @@ function Notifications(){
     return(
         <div className='notifications-section'>
             <NotiBar />
-            <Notif
-                userPfp={friends.ken[1]}
-                userReact={images.love}
-                notifContent="picture"
-                username={friends.ken[0]}
-                action="Reacted"
-            />
+            <Notif name='ken'/>
+            <Notif name='azossama'/>
+            <Notif name='didin'/>
+            <Notif name='aruma'/>
+            <Notif name='floppa'/>
+            <Notif name='aymendjf'/>
+            <Notif name='kaori'/>
+            <Notif name='kai'/>
         </div>
     )
 }
