@@ -30,4 +30,3 @@ Start the server
 
 ## Demo
 Take a look [here](https://facebook-sigma-mocha.vercel.app/)
-> note: this is just the development version...

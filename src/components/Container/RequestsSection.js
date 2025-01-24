@@ -12,7 +12,6 @@ const RequestsSection = () => {
             <Request name='aymendjf'/>
             <Request name='kai'/>
             <Request name='kaori'/>
-            <Request name='voizone'/>
 
         </div>
     )
