@@ -1,5 +1,5 @@
 .notification-container {
-    margin-top: 50px;
+    transform: translateY(50px);
     padding: 5px 10px;
 }
 
