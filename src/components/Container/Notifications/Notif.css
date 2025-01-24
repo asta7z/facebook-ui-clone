@@ -10,7 +10,6 @@
 }
 
 .notification-container .profiles img.reaction {
-    position: absolute;
     width: 18px;
     height: 18px;
     z-index: 1;
