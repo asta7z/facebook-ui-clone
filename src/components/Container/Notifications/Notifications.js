@@ -2,6 +2,7 @@ import images from '../Images'
 import friends from '../Profile/friends'
 import '../Notifications/Notification.css'
 import Notif from './Notif'
+import NotiBar from './NotiBar'
 
 function Notifications(){
     return(
