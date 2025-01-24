@@ -7,7 +7,7 @@ import NotiBar from './NotiBar'
 function Notifications(){
     return(
         <div className='notifications-section'>
-            <h1>notifications</h1>
+            <NotiBar />
             <Notif
                 userPfp={friends.ken[1]}
                 userReact={images.love}
