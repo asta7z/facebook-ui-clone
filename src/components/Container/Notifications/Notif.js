@@ -5,7 +5,7 @@ function Notif(props){
         <div className='notification-container'>
             <div className='profiles'>
                 <img className='user-pfp' src={props.userPfp} alt='user-pfp'></img>
-                <img src={props.userReact} alt='reaction'></img>
+                <img className='reaction' src={props.userReact} alt='reaction'></img>
             </div>
             <div className='notif-content'>
                 <p>{props.notifContent}</p>
