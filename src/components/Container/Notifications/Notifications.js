@@ -8,6 +8,7 @@ function Notifications(){
         <div className='notifications-section'>
             <Notif
                 userPfp={friends.ken[1]}
+                userReact={images.love}
             />
         </div>
     )
