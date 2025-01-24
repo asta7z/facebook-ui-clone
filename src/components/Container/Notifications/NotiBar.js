@@ -1,6 +1,6 @@
 import React from "react"
 import '../Nav4.css'
-import images from "./Images"
+import images from "../Images"
 
 function NotiBar(){
 
