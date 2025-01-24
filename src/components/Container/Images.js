@@ -136,6 +136,8 @@ import bg2 from '../../Assets/bg/19187761.jpg'
 import post_1 from '../../Assets/Posts/denji_post.jpg'
 import post_2 from '../../Assets/Posts/MaxPayne.jpg'
 
+import yuuichi from '../../Assets/Pins/yuuichi.jpg'
+
 const images = {
     cat: Image1,
     floppus: Image2,
@@ -272,6 +274,7 @@ const images = {
     bg2: bg2,
     post1: post_1,
     post2: post_2,
+    yuuichi: yuuichi
 }; 
 
 export default images
