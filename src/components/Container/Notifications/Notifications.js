@@ -6,6 +6,7 @@ import Notif from './Notif'
 function Notifications(){
     return(
         <div className='notifications-section'>
+            <h1>notifications</h1>
             <Notif
                 userPfp={friends.ken[1]}
                 userReact={images.love}
