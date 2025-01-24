@@ -10,8 +10,8 @@
 }
 
 .notification-container .profiles img.reaction {
-    width: 18px;
-    height: 18px;
+    width: 19px;
+    height: 19px;
     z-index: 1;
-    transform: translateX(-8px) translateY(15px);
+    transform: translateX(-8px) translateY(18px);
 }
