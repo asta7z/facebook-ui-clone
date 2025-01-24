@@ -10,6 +10,8 @@ function FeedPosts(){
             <Post name='floppa' />
             <SepLine />
             <Post name='kai' />
+            <SepLine />
+            <Post name='didin' />
         </>
     )
 }

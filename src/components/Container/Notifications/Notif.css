@@ -1,6 +1,15 @@
+* {
+    user-select: none;
+}
+
+button {
+    transition: 0.15s;
+}
+
 .notification-container {
     transform: translateY(50px);
     padding: 5px 10px;
+    display: flex;
 }
 
 .notification-container .profiles img.user-pfp {
@@ -11,8 +20,63 @@
 }
 
 .notification-container .profiles img.reaction {
-    width: 19px;
-    height: 19px;
+    position: absolute;
+    width: 25px;
+    height: 25px;
     z-index: 1;
-    transform: translateX(-8px) translateY(18px);
+    /* transform: translateX(-17px) translateY(17px); */
+    bottom: 4px;
+    left: 50px;
+}
+
+.notification-container .notif-content {
+    margin-left: 10px;
+    padding: 5px 0;
+    width: 100%;
+    
+}
+
+.notification-container .notif-content p {
+    margin: 0;
+}
+
+.notification-container .notif-content p.content {
+    color: #fff;
+}
+
+.notification-container .notif-content p.content span.user-name {
+    font-weight: 500;
+}
+
+.notification-container .notif-content p.info {
+    color: rgba(255, 255, 255, 0.428);
+    font-size: .9rem;
+}
+
+.notification-container button.more-btn {
+    position: relative;
+    background: transparent;
+    border-radius: 100%;
+    background-position: center;
+    background-size: 55%;
+    padding: 15px;
+    height: 100%;
+    background-repeat: no-repeat;
+    border: none;
+    outline: none;
+}
+
+.notification-container button.more-btn::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    border-radius: 100%;
+    z-index: -1;
+}
+
+.notification-container button.more-btn:active::after {
+    background-color: rgba(100, 100, 100, 0.6);
 }

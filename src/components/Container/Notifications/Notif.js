@@ -1,3 +1,4 @@
+import images from '../Images'
 import '../Notifications/Notif.css'
 
 function Notif(props){
@@ -8,8 +9,11 @@ function Notif(props){
                 <img className='reaction' src={props.userReact} alt='reaction'></img>
             </div>
             <div className='notif-content'>
-                <p>{props.notifContent}</p>
+                <p className='content'><span className='user-name'>{props.username}</span> {props.action} to your {props.notifContent}</p>
+                <p className='info'>20h &bull; 1 reaction</p>
             </div>
+            <button style={{backgroundImage: `url(${images.more})`}} className='more-btn'>
+            </button>
         </div>
     )
 }
