@@ -7,7 +7,7 @@ function Container(props){
     return(
         <div className="boddy" style={{backgroundImage:`url(${images.bg1})`}}>
             <div className="blur-effect">
-                <div className="main scrollbar-y">
+                <div id="scrollbarY" className="main scrollbar-y">
                     {props.children}
                 </div>
             </div>

@@ -6,7 +6,7 @@ const Friend = ({name}) => {
 
     return(
         <a href='#friend'>
-            <img src={image} alt={friendName}></img>
+            <img src={image} alt={friendName} loading='lazy'></img>
             <p>{friendName}</p>
         </a>
     );

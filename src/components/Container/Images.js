@@ -86,7 +86,6 @@ import Image85 from '../../images/176.jpg'
 import Image86 from '../../images/187.jpg'
 import Image87 from '../../images/256.jpg'
 import Image88 from '../../images/4271.jpg'
-import Image89 from '../../images/down.png'
 import Image90 from '../../images/10189.jpg'
 import Image91 from '../../images/10176.jpg'
 import Image92 from '../../images/9378.jpg'
@@ -227,7 +226,6 @@ const images = {
     ayanami3: Image86,
     goku2: Image87,
     opinion1: Image88,
-    down: Image89,
     messi2: Image90,
     animeGirl1: Image91,
     jjk1: Image92,

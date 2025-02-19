@@ -12,8 +12,8 @@ function Notif({name}){
     return(
         <div className='notification-container'>
             <div className='profiles'>
-                <img className='user-pfp' src={image} alt='user-pfp'></img>
-                <img className='reaction' src={reaction} alt='reaction'></img>
+                <img className='user-pfp' src={image} alt='user-pfp' loading='lazy'></img>
+                <img className='reaction' src={reaction} alt='reaction' loading='lazy'></img>
             </div>
             <div className='notif-content'>
                 <p className='content'><span className='user-name'>{friendName}</span> {action} to your {content}</p>

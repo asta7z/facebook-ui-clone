@@ -42,7 +42,7 @@ function Profile(){
 
             <div className='cover-pic' style={{backgroundImage:`url(${info.user_cover})`}}>
                 <div className='profile-pic'>
-                    <img id='profile-picture' src={info.user_pfp} alt='user pfp'></img>
+                    <img id='profile-picture' src={info.user_pfp} alt='user pfp' loading='lazy'></img>
                 </div>
             </div>
 
@@ -61,7 +61,7 @@ function Profile(){
 
             <SepLine />
 
-            <div className='navbar-2'>
+            <div id="navbar2" className='navbar-2'>
                 <button className='active-btn'>Posts</button>
                 <button>Reels</button>
                 <button>Videos</button>
@@ -70,9 +70,10 @@ function Profile(){
             <div className='details-section'>
                 <h1>Details</h1>
                 <div className='details'>
-                    {/* <p><img src={images.followers}></img> Followed by 241 people</p> */}
-                    <p><img src={images.instagram} alt='instagram'></img> <a href={`https://www.instagram.com/${info.user_ig_p}`}>{info.user_ig_p}</a></p>
-                    <p><img src={images.twitter} alt="twitter"></img> <a href={`https://www.twitter.com/${info.user_x_p}`}>{info.user_x_p}</a></p>
+                    <p><img src={images.followers} alt='followers'></img> Followed by {info.followers_num} people</p>
+                    <p> <a href={`https://www.instagram.com/${info.user_ig_p}`}><i class="fab fa-instagram"></i>{info.user_ig_p}</a></p>
+                    <p> <a href={`https://www.twitter.com/${info.user_x_p}`}><i class="fab fa-twitter"></i>{info.user_x_p}</a></p>
+                    <p> <a href={`https://www.github.com/${info.user_g_p}`}><i class="fab fa-github"></i>{info.user_g_p}</a></p>
                     <p><img src={images.more} alt='more'></img> See your About info</p>
                 </div>
                 <button className='active-btn'>Edit public details</button>

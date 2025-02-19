@@ -1,7 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 import './Nav2.css'
 import images from "../Container/Images";
-import Icons from '../Container/Icons';
 
 import { Link, useLocation } from "react-router-dom";
 
@@ -13,15 +12,15 @@ function Nav2(){
 
     let homeSt = '';
     let homeOpacity = '.7';
-    let homeIcon = Icons.Home;
+    let homeIcon = images.home;
 
     let requestsSt = '';
     let requestsOpacity = '.7';
-    let requestsIcon = Icons.Requests;
+    let requestsIcon = images.requests;
 
     let pfpSt = '';
     let pfpOpacity = '.7';
-    let pfpIcon = Icons.Profile;
+    let pfpIcon = images.profile;
 
     let notifSt = '';
     let notifOpacity = '.7';
@@ -30,19 +29,19 @@ function Nav2(){
     if(location.pathname === '/'){
         homeSt = 'active-btn';
         homeOpacity = '1';
-        homeIcon = Icons.HomeActive;
+        homeIcon = images.homeactive;
     };
 
     if(location.pathname === '/requests'){
         requestsSt = 'active-btn';
         requestsOpacity = '1';
-        requestsIcon = Icons.RequestsActive;
+        requestsIcon = images.requestsactive;
     };
 
     if(location.pathname === '/profile'){
         pfpSt = 'active-btn';
         pfpOpacity = '1';
-        pfpIcon = Icons.ProfileActive;
+        pfpIcon = images.profileactive;
     };
 
     if(location.pathname === '/notifications'){
@@ -57,7 +56,16 @@ function Nav2(){
                 
                 <button className={homeSt}>
                     <Link to='/'>
-                        <img style={{width:'25px',height:'25px',transform:'translateY(-1px)',opacity:homeOpacity}} src={homeIcon}></img>
+                        <img
+                            style={
+                                {
+                                    width:'34px',
+                                    height:'34px',
+                                    transform:'translateY(-1px)',
+                                    opacity:homeOpacity
+                                }
+                            }
+                            src={homeIcon}></img>
                     </Link>
                 </button>
                 <button className={requestsSt}>
@@ -65,7 +73,8 @@ function Nav2(){
                         <img
                             style={
                                 {
-                                    height:'25px',
+                                    width:'27px',
+                                    height:'27px',
                                     opacity:requestsOpacity
                                 }
                             }
@@ -73,7 +82,17 @@ function Nav2(){
                         </img>
                     </Link>
                 </button>
-                <button><img style={{height:'29px',transform:'translateY(3px)'}} src={Icons.Watch}></img></button>
+                <button>
+                    <img
+                        style={
+                            {
+                                width:'27px',
+                                height:'27px',
+                                transform:'translateY(-1px)'
+                            }
+                        }
+                        src={images.watch}></img>
+                </button>
                 <button className={pfpSt}>
                     <Link to='/profile'>
                         <img
